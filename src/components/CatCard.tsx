@@ -1,7 +1,7 @@
 import {Box, Button, Typography} from "@mui/material";
 interface CatCardProps {
-    img: 'string',
-    title: 'string',
+    img: string,
+    title: string,
 
 }
 export default function CatCard({img, title} : CatCardProps) {
