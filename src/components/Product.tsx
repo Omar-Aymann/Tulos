@@ -1,5 +1,4 @@
 import { Card, CardActionArea, CardContent, CardMedia, Typography, Box } from "@mui/material";
-import { useState } from "react";
 interface ProductProps {
     title: string;
     img: string;
