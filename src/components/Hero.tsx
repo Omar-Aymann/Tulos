@@ -1,5 +1,5 @@
 import { Box, Typography, Button } from "@mui/material";
-import heroImage from '../assets/hero1.jpg';
+import heroImage from '../assets/hero1.webp';
 export default function Hero() {
     return (
         <Box sx={{ height: '85vh', p: '1rem', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'left', backgroundImage: 'url(' + heroImage + ')', backgroundSize: 'cover', borderRadius: '10px', backgroundPosition: 'center', position: 'relative'}}>

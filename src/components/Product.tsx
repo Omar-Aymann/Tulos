@@ -8,7 +8,7 @@ interface ProductProps {
   }
 export default function Product({title, img, desctiption, price} : ProductProps) {
     return (
-            <Card  sx={{ bgcolor: 'background.default', border: 'hidden', boxShadow: 'none', p: '1rem'}}>
+            <Card  sx={{ bgcolor: 'background.default', border: 'hidden', boxShadow: 'none', p: '1rem', borderRadius: '1.5rem', }}>
                 <CardActionArea>
                     <CardMedia 
                     component={'img'}
@@ -16,7 +16,7 @@ export default function Product({title, img, desctiption, price} : ProductProps)
                     sx={{  width: '100%', aspectRatio: '1/1', objectFit: 'cover', borderRadius: '1.5rem', }}
 />
                 <CardContent sx={{p: 0, py: '5px'}}>
-                    <Box sx={{display: 'flex', flexDirection: 'column', gap: '0.1rem', mb: '0.5rem'}}>
+                    <Box sx={{display: 'flex', flexDirection: 'column', gap: '0.1rem', mb: '0.5rem', p: '0.5rem'}}>
                     <Typography  variant="h6" sx={{ fontWeight: '700', }} >
                         {title}
                     </Typography>
@@ -25,7 +25,7 @@ export default function Product({title, img, desctiption, price} : ProductProps)
                     </Typography>
 
                     </Box>
-                    <Typography variant="h6" sx={{ fontWeight: '700', }}>
+                    <Typography variant="h6" sx={{ fontWeight: '700', p: '0.5rem'}}>
                         {price}
                     </Typography>
                 </CardContent>

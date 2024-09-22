@@ -4,6 +4,9 @@ import TopBar from "./components/TopBar.tsx";
 import Nav from "./components/Nav.tsx";
 import Hero from './components/Hero.tsx';
 import NewCollection from './components/NewCollection.tsx';
+import Banner from './components/Banner.tsx';
+import CategoryCards from './components/CategoryCards.tsx';
+import Footer from './components/Footer.tsx';
 function App() {
   const theme = createTheme({
     palette: {
@@ -16,15 +19,22 @@ function App() {
   return (
     <>
     <ThemeProvider theme={theme}>
-        <TopBar />
-        <Nav />
+      <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%', gap: 10}}>
+        <Box>
+          <TopBar />
+          <Nav />
       <Container maxWidth="xl" >
         <Box sx={{display: 'flex', flexDirection: 'column', width: '100%',gap: 10}} >
-
-        <Hero />
-        <NewCollection />
+          <Hero />
+          <NewCollection />
+          <Banner />
+          <CategoryCards />
         </Box>
       </Container>
+      </Box>
+
+      <Footer />
+      </Box>
     </ThemeProvider>
     </>
   )

@@ -12,7 +12,7 @@ export default function NewCollection() {
                 <Product title="White T-Shirt" desctiption="Classic White T-Shirt" price="$20" img="/whitet.webp" />
                 </Grid2>
                 <Grid2 size={4}>
-                <Product title="Brown Leather Jacket" desctiption="Natural Brown Leather Jacket" price="$70" img="/jacket.jpg" />
+                <Product title="Brown Leather Jacket" desctiption="Natural Brown Leather Jacket" price="$70" img="/jacket.webp" />
 
                 </Grid2>
                 <Grid2 size={4}>
