@@ -77,7 +77,7 @@ export default function Footer() {
                           md: 'row',    // For medium screens (landscape tablets)
                           lg: 'row',    // For large screens (desktop)
         }, justifyContent: 'center', textAlign: 'center', p: '1rem', gap: '0.5rem', px: '2rem' }}>
-            <Typography variant="subtitle1" sx={{ color: 'black', fontWeight: '600', }}>Designed by <Link href="https://dribbble.com/odamastudio">Odama</Link></Typography>
+            <Typography variant="subtitle1" sx={{ color: 'black', fontWeight: '600', }}>Designed by <Link href="https://dribbble.com/shots/22938024-Ecommerce-Website-Fashion">Odama</Link></Typography>
             <Typography variant="subtitle1" sx={{ color: 'black', fontWeight: '600', }}>Developed by <Link href="https://github.com/Omar-Aymann">Omar</Link></Typography>
     </Box>
     </Box>
